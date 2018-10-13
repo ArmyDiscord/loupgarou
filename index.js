@@ -8,7 +8,7 @@ db.defaults({}).write()
 
 var servers = {};
 
-client.login("");
+bot.login(process.env.TOKEN);
 
   
 client.on("ready", () => {
