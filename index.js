@@ -1,26 +1,21 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
 
-var prefix = "a!";
+const bot = new Discord.Client();
 
-
-db.defaults({}).write()
-
-var servers = {};
+var prefix = "*";
 
 bot.login(process.env.TOKEN);
 
-  
-client.on("ready", () => {
-  
+bot.on("ready", () => {
+    bot.user.setGame("Regarder des mangas");
     console.log("Je suis prêt !");
-    client.user.setGame("Anti-Vent");
+
 });
 
-  
-  client.on('message', async message => { 
-  
-      if(message.content === "Bonjour"){
-          message.reply("Salut");
-          console.log('Le bot dit bonjour');
-        }
+bot.on('message', async message => { 
+
+    if(message.content === "Bonjour"){
+        message.reply("Salut");
+        console.log('Le bot dit bonjour');
+    }
+});
