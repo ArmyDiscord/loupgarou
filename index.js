@@ -58,7 +58,15 @@ bot.on('message', async message => {
         message.reply("Salut");
     }
 
-    if(message.content === "Hey"){
+    if(message.content === "Hey Salut"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Hey salut"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "hey salut"){
         message.reply("Salut");
     }
 
@@ -67,6 +75,10 @@ bot.on('message', async message => {
     }
 
     if(message.content === "hey !"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Salut"){
         message.reply("Salut");
     }
 
@@ -103,6 +115,22 @@ bot.on('message', async message => {
     }
 
     if(message.content === "cc"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "coucou les amis"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Coucou les amis"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Kuku"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "kuku"){
         message.reply("Salut");
     }
 
