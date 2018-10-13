@@ -6,9 +6,13 @@ var prefix = "*";
 
 bot.login(process.env.TOKEN);
 
-bot.on("ready", () => {
-    bot.user.setGame("Regarder des mangas");
-    console.log("Je suis prêt !");
+bot.on("ready", async () => {
+
+console.log(`${bot.user.tag} is Online!`);
+
+bot.user.setActivity("Anti-Vent", {type: "WATCHING"});
+
+bot.user.setStatus("online");
 
 });
 
