@@ -45,4 +45,44 @@ bot.on('message', async message => {
     if(message.content === "bsr"){
         message.reply("Bonsoir");
     }
+
+    if(message.content === "Hey"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "hey"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Salut"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "salut"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "slt"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Slt"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Re"){
+        message.reply("Re");
+    }
+
+    if(message.content === "re"){
+        message.reply("Re");
+    }
+
+    if(message.content === "Hello"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "hello"){
+        message.reply("Salut");
+    }
 });
