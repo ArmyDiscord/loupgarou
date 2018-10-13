@@ -19,19 +19,19 @@ bot.user.setStatus("online");
 bot.on('message', async message => { 
 
     if(message.content === "Bonjour"){
-        message.reply("Salut");
+        message.reply("Bonjour");
     }
 
     if(message.content === "bjr"){
-        message.reply("Salut");
+        message.reply("Bonjour");
     }
 
     if(message.content === "bonjour"){
-        message.reply("Salut");
+        message.reply("Bonjour");
     }
 
     if(message.content === "Bjr"){
-        message.reply("Salut");
+        message.reply("Bonjour");
     }
 
     if(message.content === "Bonsoir"){
@@ -51,31 +51,31 @@ bot.on('message', async message => {
     }
 
     if(message.content === "Hey"){
-        message.reply("Salut");
+        message.reply("Hey");
     }
 
     if(message.content === "hey"){
-        message.reply("Salut");
+        message.reply("Hey");
     }
 
     if(message.content === "Hey Salut"){
-        message.reply("Salut");
+        message.reply("Hey");
     }
 
     if(message.content === "Hey salut"){
-        message.reply("Salut");
+        message.reply("Hey");
     }
 
     if(message.content === "hey salut"){
-        message.reply("Salut");
+        message.reply("Hey");
     }
 
     if(message.content === "Hey !"){
-        message.reply("Salut");
+        message.reply("Hey");
     }
 
     if(message.content === "hey !"){
-        message.reply("Salut");
+        message.reply("Hey");
     }
 
     if(message.content === "Salut"){
@@ -83,6 +83,14 @@ bot.on('message', async message => {
     }
 
     if(message.content === "salut"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Salut !"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "salut !"){
         message.reply("Salut");
     }
 
@@ -103,50 +111,50 @@ bot.on('message', async message => {
     }
 
     if(message.content === "Hello"){
-        message.reply("Salut");
+        message.reply("Hello");
     }
 
     if(message.content === "hello"){
-        message.reply("Salut");
+        message.reply("Hello");
     }
 
     if(message.content === "Coucou"){
-        message.reply("Salut");
+        message.reply("Coucou");
     }
 
     if(message.content === "cc"){
-        message.reply("Salut");
+        message.reply("Coucou");
     }
 
     if(message.content === "coucou les amis"){
-        message.reply("Salut");
+        message.reply("Coucou");
     }
 
     if(message.content === "Coucou les amis"){
-        message.reply("Salut");
+        message.reply("Coucou");
     }
 
     if(message.content === "Kuku"){
-        message.reply("Salut");
+        message.reply("Coucou");
     }
 
     if(message.content === "kuku"){
-        message.reply("Salut");
+        message.reply("Coucou");
     }
 
     if(message.content === "Hi"){
-        message.reply("Salut");
+        message.reply("Hi");
     }
 
     if(message.content === "Hi !"){
-        message.reply("Salut");
+        message.reply("Hi");
     }
 
     if(message.content === "hi"){
-        message.reply("Salut");
+        message.reply("Hi");
     }
 
     if(message.content === "hi !"){
-        message.reply("Salut");
+        message.reply("Hi");
     }
 });
