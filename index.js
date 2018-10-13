@@ -29,4 +29,20 @@ bot.on('message', async message => {
     if(message.content === "Bjr"){
         message.reply("Salut");
     }
+
+    if(message.content === "Bonsoir"){
+        message.reply("Bonsoir");
+    }
+
+    if(message.content === "Bsr"){
+        message.reply("Bonsoir");
+    }
+
+    if(message.content === "bonsoir"){
+        message.reply("Bonsoir");
+    }
+
+    if(message.content === "bsr"){
+        message.reply("Bonsoir");
+    }
 });
