@@ -16,6 +16,17 @@ bot.on('message', async message => {
 
     if(message.content === "Bonjour"){
         message.reply("Salut");
-        console.log('Le bot dit bonjour');
+    }
+
+    if(message.content === "bjr"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "bonjour"){
+        message.reply("Salut");
+    }
+
+    if(message.content === "Bjr"){
+        message.reply("Salut");
     }
 });
