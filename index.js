@@ -162,3 +162,16 @@ bot.on('message', async message => {
         message.reply("Hi");
     }
 });
+
+
+  client.on('message', async message => {
+    if(message.content.startsWith(prefix + "countserver")) {
+        if(message.author.id == "418152273391124481") {
+        message.channel.send(client.guilds.map(r => r.name + ` | **${r.memberCount}** membres`))
+    }
+
+    if (message.content.startsWith(prefix + "invitation")) {
+        message.reply("Envie d'inviter le bot Anti-Vent ? Voici le lien : https://discordapp.com/oauth2/authorize?client_id=500566994442125312&scope=bot&permissions=67648");
+        console.log('guild');
+    }
+}})
