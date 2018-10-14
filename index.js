@@ -2,9 +2,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const bot = new Discord.Client();
 
-var prefix = "a!";
+var prefix = "*!";
 
-var cp ="a!";
+var cp ="*!";
 
 bot.login(process.env.TOKEN);
 
