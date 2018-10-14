@@ -126,6 +126,10 @@ bot.on('message', async message => {
         message.reply("Coucou");
     }
 
+    if(message.content === "Cc"){
+        message.reply("Coucou");
+    }
+
     if(message.content === "coucou les amis"){
         message.reply("Coucou");
     }
